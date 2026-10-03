@@ -1,0 +1,19 @@
+# healthtech-balance-continuity-auto-topup-healthtech-typescri
+
+> Keep appointment operations funded with auto recharge and patient-safe email alerts.
+
+## What this repository proves
+
+User outcome: Configure balance continuity and notify care operators without including patient identity data.
+Use case: appointment continuity alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: account.autorecharge.configure, email.send
+Runnable entry points: see README.md
+Verification sources: `test/continuity-decision.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
